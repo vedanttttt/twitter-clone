@@ -187,3 +187,66 @@ body{
   align-items: center;
   color: silver;
 }
+.trends{
+  width: 25%;
+}
+.trends_search{
+  position: fixed;
+  width: 25%;
+  top: 10px;
+  right: 0;
+  /*border-bottom: 1px solid #e6ecf0;*/
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.trend_control{
+  border: none;
+  width: 90%;
+  margin-left: 20px;
+  outline: none;
+  background: #f5f4f2;
+  border-radius: 50px;
+  padding: 15px 40px;
+}
+.trend_icon{
+  position: absolute;
+  top: 15px;
+  left: 40px;
+}
+.search{
+  font-size: 20px;
+  color: silver;
+}
+
+.keywords{
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 25%;
+  padding: 20px 20px;
+}
+.key{
+  background: #f5f8fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+.keyword_heading{
+  font-size: 20px;
+  border-bottom: 1px solid #e6ecf0;
+  padding-bottom: 8px;
+}
+.country{
+  font-size: 14px;
+  color: silver;
+  font-weight: 300;
+  margin: 10px 0;
+}
+.keyword_name{
+  margin-bottom: 8px;
+}
+.keyword_tweets{
+  margin-top: 7px;
+  color: silver;
+  font-size: 14px;
+  font-weight: 300;
+}
