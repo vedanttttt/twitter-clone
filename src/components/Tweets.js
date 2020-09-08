@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import CreateTweet from './CreateTweet';
+import Posts from './Posts';
 
 const Tweets = () => {
     return (
@@ -6,6 +8,11 @@ const Tweets = () => {
             <div className="posts_home">
                 Home
             </div>
+            <CreateTweet />
+            <Posts />
+            <Posts />
+            <Posts />
+            <Posts />
         </div>
     )
 }
