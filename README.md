@@ -23,3 +23,5 @@ Various functionalities that app consists of are :
 
 
 ![](public/images/home_page.png)
+
+![](public/images/home_page2.png)
