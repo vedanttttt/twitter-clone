@@ -20,3 +20,6 @@ Various functionalities that app consists of are :
  Users would be able to see trending tweets and can follow them .
  User would have option to post the tweets .
  Many other icons are available at side bar.
+
+
+![](public/images/home_page.png)
