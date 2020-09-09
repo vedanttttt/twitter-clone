@@ -10,9 +10,6 @@ const Tweets = () => {
             </div>
             <CreateTweet />
             <Posts />
-            <Posts />
-            <Posts />
-            <Posts />
         </div>
     )
 }

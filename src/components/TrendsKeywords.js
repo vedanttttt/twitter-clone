@@ -5,7 +5,7 @@ const TrendsKeywords = () => {
         {
             id:1,
             country: 'Trending in India',
-            keyword: 'ISPR',
+            keyword: '#Patriarchy',
             totalKeywords: '200k'
         },
         {
@@ -17,7 +17,7 @@ const TrendsKeywords = () => {
         {
             id:3,
             country: 'Trending in India',
-            keyword: 'YoutubeinIndia',
+            keyword: 'Covid19inIndia',
             totalKeywords: '256k'
         }
     ]);
@@ -25,7 +25,9 @@ const TrendsKeywords = () => {
         <div className="keywords">
             <div className="key">
                 <div className="keyword_heading">
-                    <h1>Trends for you</h1>
+                    <h1>Filter Tweets</h1>
+                    <br></br>
+                    <h4>Trends for you</h4>
                 </div>
                 {state.map(keyword => (
                     <div key={keyword.id}>
@@ -40,8 +42,8 @@ const TrendsKeywords = () => {
                         </div>
                     </div>
                 ))}
-                
             </div>
+            <h3>Show more</h3>
         </div>
     )
 }

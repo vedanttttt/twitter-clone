@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: white;
 }
 
 body{
@@ -249,4 +250,10 @@ body{
   color: silver;
   font-size: 14px;
   font-weight: 300;
+}
+.keywords h3{
+  color: #1da1f2;
+  margin-left: 5%;
+  justify-content: center;
+  font-weight: 400;
 }
